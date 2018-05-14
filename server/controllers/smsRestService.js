@@ -37,17 +37,15 @@ smsRestService.doPostSms = function (req, res) {
   console.log("options >>>", options);
   logger.log("postSMS options == "+ options);
   request(options, function (error, response, body) {
+    console.log('sms', response);
     if (error) {
       console.log("error", "error sms >>> ", error);
       logger.error("error sms >>> ", error);
       res.json(error);
     } else {
-      logger.log("info", "infobip response >>");
-      var result = {};
-      result.response = body.responsecode;
-      result.body = body.data
-      // console.log('result body >>>>', result);
-      logger.log('response from infobip >>>>', body);
+      logger.log("infobip", "successful response >>");
+      console.log('result body >>>>', body);
+      logger.log('infobip request response body >>>>', body);
 
       res.status(200).json(body);
     }
