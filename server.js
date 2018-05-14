@@ -28,16 +28,16 @@ hookJWTStrategy(passport);
 
 // Set the static files location.
 // Serve static files
-app.use(express.static(path.join(__dirname, '/dist/')));
+app.use(express.static(path.join(__dirname, '')));
 app.use('/api', require('./server/routes/api')(passport));// Bundle API routes.
 
 // Catch all route.
 // Return other routes to Angular index file..
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/dist/index.html'));
+  res.sendFile(path.join(__dirname, ''));
 });
 
 // Start the server.
 app.listen('8080', function () {
-  console.log('Magic happens at http://localhost:3000');
+  console.log('Magic happens at http://localhost:8080');
 });
