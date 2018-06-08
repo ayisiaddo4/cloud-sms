@@ -34,7 +34,9 @@ app.use('/api', require('./server/routes/api')(passport));// Bundle API routes.
 // Catch all route.
 // Return other routes to Angular index file..
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, ''));
+  // res.sendFile(path.join(__dirname, ''));
+  var msg = "<em>Welcome .... Cloud Africa VAS :)</em>";
+  res.send(msg);
 });
 
 // Start the server.
