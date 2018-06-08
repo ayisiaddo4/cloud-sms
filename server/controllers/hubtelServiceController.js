@@ -60,7 +60,7 @@ Momo.receiveMoney = function (req, res) {
 Momo.sendMoney = function (req, res) {
    var body = req.body,
     payload,
-    url = config.hubtel.baseUrl + config.hubtel.sendMoney,
+    url = config.hubtel.baseUrl + config.hubtel.momoSendUrl,
     auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
     
   payload = {
@@ -84,7 +84,8 @@ Momo.sendMoney = function (req, res) {
       "Authorization": auth
     }
   };
-  console.log("options >>>", options);
+  console.log("send momo options >>>", options);
+  logger.info("send momo options >>>>" + options);
   request(options, function (error, response, body) {
     if (error) {
       console.log("error", "Error requesting sending momo >>> ", error);
