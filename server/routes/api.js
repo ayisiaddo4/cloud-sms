@@ -23,10 +23,10 @@ var APIRoutes = function(passport) {
     router.post('/group', GroupServiceController.createGroup);
     router.post('/post', PostServiceController.postContent);
 
-    router.post('/receive', HubtelServiceController.receiveMoney);
-    router.post('/send', HubtelServiceController.sendMoney);
+    router.post('/receivemoney', HubtelServiceController.receiveMoney);
+    router.post('/sendmoney', HubtelServiceController.sendMoney);
     router.post('/sms', SmsRestService.doPostSms);
-    router.post('/callback', HubtelServiceController.smsCallBack);
+    router.post('/callback', HubtelServiceController.callBack);
 
 
   // GET Routes.
@@ -47,7 +47,7 @@ var APIRoutes = function(passport) {
     router.delete('/post/remove/:id', PostServiceController.removePost);
 
     router.get('/status', HubtelServiceController.geTranStatus);
-    router.get('/callback', HubtelServiceController.smsCallBack);
+    router.get('/callback', HubtelServiceController.callBack);
 
   return router;
 };

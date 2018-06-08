@@ -131,7 +131,7 @@ Momo.geTranStatus = function (req, res) {
   });
 } //get  transaction status
 
-Momo.smsCallBack = function (req, res) {
+Momo.callBack = function (req, res) {
   var body = req.body;
   console.log('listen to momo callback >>>', body);
   logger.log(body);
