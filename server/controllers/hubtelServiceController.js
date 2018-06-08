@@ -60,7 +60,7 @@ Momo.receiveMoney = function (req, res) {
 Momo.sendMoney = function (req, res) {
    var body = req.body,
     payload,
-    url = config.hubtel.baseUrl + config.hubtel.momoReceiveUrl,
+    url = config.hubtel.baseUrl + config.hubtel.sendMoney,
     auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
     
   payload = {
