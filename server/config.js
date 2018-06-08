@@ -63,12 +63,10 @@ config.transporter = nodemailer.createTransport({
 
 config.hubtel = {
   baseUrl: "https://api.hubtel.com/v1/merchantaccount",
-  merchantId: "HM2811170009",
-  clientId: "dkxvcssl",
-  clientSecret: "ipccgouu",
-  momoReceiveUrl: "/merchants/HM2811170009/receive/mobilemoney",
-  momoSendUrl: "/merchants/HM2811170009/send/mobilemoney",
-  tranStatusUrl: "/merchants/HM2811170009/transactions/status?"
+  merchantId: "HM2105180005",
+  momoReceiveUrl: "/merchants/HM2105180005/receive/mobilemoney",
+  momoSendUrl: "/merchants/HM2105180005/send/mobilemoney",
+  tranStatusUrl: "/merchants/HM2105180005/transactions/status?"
 }
 
 config.infoBib = {

@@ -6,6 +6,7 @@
 var config = require('../config'),
   request = require('request'),
   db = require('../models/database'),
+  logger = require("./logger"),
   Momo = {};
 
 //Receive mobile money
@@ -13,7 +14,7 @@ Momo.receiveMoney = function (req, res) {
   var body = req.body,
     payload,
     url = config.hubtel.baseUrl + config.hubtel.momoReceiveUrl,
-    auth = "Basic " + new Buffer(config.hubtel.clientId + ":" + config.hubtel.clientSecret).toString("base64");
+    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
 
   payload = {
     "customerName": body.CustomerName,
@@ -37,6 +38,7 @@ Momo.receiveMoney = function (req, res) {
     }
   };
   console.log("options >>>", options);
+  logger.log('options >>>', options);
   request(options, function (error, response, body) {
     if (error) {
       console.log("error", "Error requesting receive momo >>> ", error);
@@ -44,9 +46,10 @@ Momo.receiveMoney = function (req, res) {
     } else {
       console.log("info", "Receive Momo Service Request successfully returned 200 Response body>>");
       var result = {};
-      result.response = body.responsecode;
-      result.body = body.data
+      result.response = body.ResponseCode;
+      result.body = body.Data;
       console.log('result body >>>>',result);
+      logger.log("initial callback from Service Provider"+ result);
       res.status(200).json(result);
     }
   });
@@ -54,11 +57,11 @@ Momo.receiveMoney = function (req, res) {
 }
 
 Momo.sendMoney = function (req, res) {
-  var body = req.body,
+   var body = req.body,
     payload,
-    url = config.hubtel.baseUrl + config.hubtel.momoSendUrl,
-    auth = "Basic " + new Buffer(config.hubtel.clientId + ":" + config.hubtel.clientSecret).toString("base64");
-
+    url = config.hubtel.baseUrl + config.hubtel.momoReceiveUrl,
+    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
+    
   payload = {
     "RecipientName": body.RecipientName,
     "RecipientMsisdn": body.RecipientMsisdn,
@@ -88,11 +91,11 @@ Momo.sendMoney = function (req, res) {
     } else {
       console.log("info", "Send Momo Service Request successfully returned 200 Response body >>");
       var result = {};
-      result.response = response.responseCode;
-      result.data = body.data;
-
-      console.log('result data >>>>',result);
-      res.status(200).json(body);
+      result.response = body.ResponseCode;
+      result.body = body.Data;
+      console.log('result body >>>>',result);
+      logger.log("initial callback from Service Provider"+ result);
+      res.status(200).json(result);
     }
   });
 
@@ -126,9 +129,12 @@ Momo.geTranStatus = function (req, res) {
   });
 } //get  transaction status
 
-Momo.callBack = function (req, res) {
+Momo.smsCallBack = function (req, res) {
   var body = req.body;
   console.log('listen to momo callback >>>', body);
+  logger.log(body);
+
+  res.status(201).json(body);
 } //Momo callback responses
 
 

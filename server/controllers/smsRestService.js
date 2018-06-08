@@ -77,17 +77,18 @@ smsRestService.getDeliveryReport = function (req, res) {
   };
   console.log("options >>>", options);
   logger.info("postSMS options == "+ options);
+  logger.log("postSMS options == "+ options);
+
   request(options, function (error, response, body) {
-    console.log('sms', response);
-    logger.info('send sms response >>>>');
+    // console.log('sms', response);
+    // logger.info('send sms response >>>>');
     if (error) {
       console.log("error", "error sms >>> ", error);
       logger.error("error sms >>> ", error);
       res.json(error);
     } else {
-      logger.log("infobip", "successful response >>");
-      console.log('result body >>>>', body);
-      logger.info('infobip request response body >>>>', body);
+      logger.log("infobip", "successful response ------------------");
+      // logger.log('infobip response body >>>>', body);
 
       res.status(200).json(body);
     }

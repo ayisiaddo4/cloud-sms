@@ -46,7 +46,7 @@ var APIRoutes = function(passport) {
     router.delete('/post/remove/:id', PostServiceController.removePost);
 
     router.get('/status', HubtelServiceController.geTranStatus);
-    router.get('/callback', HubtelServiceController.callBack);
+    router.get('/callback', HubtelServiceController.smsCallBack);
 
   return router;
 };
