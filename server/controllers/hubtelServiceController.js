@@ -15,7 +15,7 @@ Momo.receiveMoney = function (req, res) {
   var body = req.body,
     payload,
     url = config.hubtel.baseUrl + config.hubtel.momoReceiveUrl,
-    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
+    auth = "Basic " + new Buffer(body.ClientId + ":" + body.ClientSecret).toString("base64");
 
   payload = {
     "customerName": body.CustomerName,

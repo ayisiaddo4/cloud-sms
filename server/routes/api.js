@@ -26,6 +26,7 @@ var APIRoutes = function(passport) {
     router.post('/receivemoney', HubtelServiceController.receiveMoney);
     router.post('/sendmoney', HubtelServiceController.sendMoney);
     router.post('/sms', SmsRestService.doPostSms);
+    router.post('/delivery', SmsRestService.getDeliveryReport);
     router.post('/callback', HubtelServiceController.callBack);
 
 
@@ -48,6 +49,7 @@ var APIRoutes = function(passport) {
 
     router.get('/status', HubtelServiceController.geTranStatus);
     router.get('/callback', HubtelServiceController.callBack);
+    router.get('/delivery', SmsRestService.getDeliveryReport);
 
   return router;
 };

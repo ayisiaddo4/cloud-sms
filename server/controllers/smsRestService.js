@@ -14,7 +14,7 @@ var config = require('../config'),
 smsRestService.doPostSms = function (req, res) {
   var body = req.body,
     url = config.infoBib.baseUrl + config.infoBib.sendSmsUrl,
-    auth = "Basic " + new Buffer(config.infoBib.userName + ":" + config.infoBib.password).toString("base64");
+    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
 
   logger.info('info', 'body request >>');
   logger.info('info', body);
@@ -37,7 +37,6 @@ smsRestService.doPostSms = function (req, res) {
   console.log("options >>>", options);
   logger.log("postSMS options == "+ options);
   request(options, function (error, response, body) {
-    console.log('sms', response);
     if (error) {
       console.log("error", "error sms >>> ", error);
       logger.error("error sms >>> ", error);
@@ -55,7 +54,7 @@ smsRestService.doPostSms = function (req, res) {
 smsRestService.getDeliveryReport = function (req, res) {
   var body = req.body,
     url = config.infoBib.baseUrl + config.infoBib.getDeliveryReport,
-    auth = "Basic " + new Buffer(config.infoBib.userName + ":" + config.infoBib.password).toString("base64");
+    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
 
   logger.info('info', 'body request >>');
   logger.info('info', body);
@@ -89,7 +88,6 @@ smsRestService.getDeliveryReport = function (req, res) {
     } else {
       logger.log("infobip", "successful response ------------------");
       // logger.log('infobip response body >>>>', body);
-
       res.status(200).json(body);
     }
   });
