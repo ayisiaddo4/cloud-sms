@@ -15,18 +15,18 @@ Momo.receiveMoney = function (req, res) {
   var body = req.body,
     payload,
     url = config.hubtel.baseUrl + config.hubtel.momoReceiveUrl,
-    auth = "Basic " + new Buffer(body.ClientId + ":" + body.ClientSecret).toString("base64");
+    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
 
   payload = {
-    "customerName": body.CustomerName,
-    "CustomerMsisdn": body.CustomerMsisdn,
-    "CustomerEmail": body.CustomerEmail,
-    "Channel": body.Channel,
-    "Amount": body.Amount,
-    "PrimaryCallbackUrl": body.PrimaryCallbackUrl,
-    "Description": body.Description,
+    "CustomerName": body.customerName,
+    "CustomerMsisdn": body.customerMsisdn,
+    "CustomerEmail": body.customerEmail,
+    "Channel": body.channel,
+    "Amount": body.amount,
+    "PrimaryCallbackUrl": body.primaryCallbackUrl,
+    "Description": body.description,
     "Token": "",
-    "ClientReference": body.ClientReference
+    "ClientReference": body.clientReference
   };
 
   var options = {
@@ -61,18 +61,18 @@ Momo.sendMoney = function (req, res) {
    var body = req.body,
     payload,
     url = config.hubtel.baseUrl + config.hubtel.momoSendUrl,
-    auth = "Basic " + new Buffer(body.ClientId + ":" + body.ClientSecret).toString("base64");
+    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
     
   payload = {
-    "RecipientName": body.RecipientName,
-    "RecipientMsisdn": body.RecipientMsisdn,
-    "CustomerEmail": body.CustomerEmail,
-    "Channel": body.Channel,
-    "Amount": body.Amount,
-    "PrimaryCallbackUrl": body.PrimaryCallbackUrl,
-    "SecondaryCallbackUrl": "",
-    "Description": body.Description,
-    "ClientReference": body.ClientReference
+    "RecipientName": body.recipientName,
+    "RecipientMsisdn": body.recipientMsisdn,
+    "CustomerEmail": body.customerEmail,
+    "Channel": body.channel,
+    "Amount": body.amount,
+    "PrimaryCallbackUrl": body.primaryCallbackUrl,
+    "SecondaryCallbackUrl": body.secondaryCallbackUrl,
+    "Description": body.description,
+    "ClientReference": body.clientReference
   };
 
   var options = {
@@ -89,6 +89,7 @@ Momo.sendMoney = function (req, res) {
   request(options, function (error, response, body) {
     if (error) {
       console.log("error", "Error requesting sending momo >>> ", error);
+      logger.error("error: true" +"message: "+error);
       res.json(error);
     } else {
       console.log("info", "Send Momo Service Request successfully returned 200 Response body >>");
@@ -106,34 +107,43 @@ Momo.sendMoney = function (req, res) {
 Momo.refund = function (req, res) { }//do momo refund
 
 Momo.geTranStatus = function (req, res) {
+  // https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/transactions/status?networkTransactionId=3629138929&hubtelTransactionId=HUBV9023LASFLAKS8
   var body = req.body,
     invoiceToken = "",
-    networkTransactionId="",
-    hubtelTransactionId=body.TransactionId,
-    url = config.hubtel.baseUrl + config.hubtel.tranStatusUrl+hubtelTransactionId;
+    networkId=body.externalTransactionId,
+    hubtelId=body.transactionId,
+    url = config.hubtel.baseUrl+config.hubtel.tranStatusUrl+'networkTransactionId'+'='+networkId+'&'+'hubtelTransactionId'+'='+hubtelId,
+    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
 
+    console.log('geTranStatus ', body);  
   var options = {
     url: url,
     json: true,
-    method: "GET"
+    method: "GET",
+    headers: {
+      "Authorization": auth
+    }
   };
   console.log("options >>>", options);
   request(options, function (error, response, body) {
+    // console.log(response);
     if (error) {
       console.log("error", "Error requesting momo transaction status >>> ", error);
+      logger.error('error tracking transaction status');
       res.status(500).json(error);
     } else {
       console.log("info", "Successful Momo transaction status >>");
+      logger.info("Momo transaction status >>>>", body);
       var result = {};
-
       res.status(200).json(body);
     }
   });
-} //get  transaction status
+
+} //get transaction status
 
 Momo.callBack = function (req, res) {
   var body = req.body;
-  console.log('listen to momo callback >>>', body);
+  console.log('listen to Telco callback within 30secs >>>', body);
   logger.log(body);
 
   res.status(201).json(body);

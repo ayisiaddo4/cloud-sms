@@ -28,6 +28,7 @@ var APIRoutes = function(passport) {
     router.post('/sms', SmsRestService.doPostSms);
     router.post('/delivery', SmsRestService.getDeliveryReport);
     router.post('/callback', HubtelServiceController.callBack);
+    router.post('/status', HubtelServiceController.geTranStatus);
 
 
   // GET Routes.
