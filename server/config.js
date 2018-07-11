@@ -66,7 +66,8 @@ config.hubtel = {
   merchantId: "HM2105180005",
   momoReceiveUrl: "/merchants/HM2105180005/receive/mobilemoney",
   momoSendUrl: "/merchants/HM2105180005/send/mobilemoney",
-  tranStatusUrl: "/merchants/HM2105180005/transactions/status?"
+  tranStatusUrl: "/merchants/HM2105180005/transactions/status?",
+  refundUrl: "/merchants/HM2105180005/transactions/refund"
 }
 
 config.infoBib = {

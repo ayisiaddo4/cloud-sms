@@ -49,8 +49,8 @@ Momo.receiveMoney = function (req, res) {
       var result = {};
       result.response = body.ResponseCode;
       result.body = body.Data;
-      console.log('result body >>>>',result);
-      logger.log("initial callback from Service Provider"+ result);
+      console.log('result body >>>>', result);
+      logger.log("initial callback from Service Provider" + result);
       res.status(200).json(result);
     }
   });
@@ -58,11 +58,11 @@ Momo.receiveMoney = function (req, res) {
 }
 
 Momo.sendMoney = function (req, res) {
-   var body = req.body,
+  var body = req.body,
     payload,
     url = config.hubtel.baseUrl + config.hubtel.momoSendUrl,
     auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
-    
+
   payload = {
     "RecipientName": body.recipientName,
     "RecipientMsisdn": body.recipientMsisdn,
@@ -89,33 +89,76 @@ Momo.sendMoney = function (req, res) {
   request(options, function (error, response, body) {
     if (error) {
       console.log("error", "Error requesting sending momo >>> ", error);
-      logger.error("error: true" +"message: "+error);
+      logger.error("error: true" + "message: " + error);
       res.json(error);
     } else {
       console.log("info", "Send Momo Service Request successfully returned 200 Response body >>");
       var result = {};
       result.response = body.ResponseCode;
       result.body = body.Data;
-      console.log('result body >>>>',result);
-      logger.log("initial callback from Service Provider"+ result);
+      console.log('result body >>>>', result);
+      logger.log("initial callback from Service Provider" + result);
       res.status(200).json(result);
     }
   });
 
-}// send mobile money
+} // send mobile money
 
-Momo.refund = function (req, res) { }//do momo refund
+Momo.refund = function (req, res) {
+  var body = req.body,
+    payload,
+    url = config.hubtel.baseUrl + config.hubtel.refundUrl,
+    auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
+
+  payload = {
+    "TransactionId": body.transactionId,
+    "Reason": body.reason,
+    "ClientReference": body.clientReference,
+    "Description": body.description,
+    "Amount": body.amount,
+    "Full": body.full
+  };
+
+  var options = {
+    url: url,
+    json: true,
+    body: payload,
+    method: "POST",
+    headers: {
+      "Authorization": auth
+    }
+  };
+  console.log("Refund options >>>", options);
+  logger.log("Refund options >>>>" + options);
+  request(options, function (error, response, body) {
+    if (error) {
+      console.log("error", "Error requesting refund >>> ", error);
+      logger.error("Error requesting refund :::" +error);
+      res.json(error);
+    } else {
+      console.log("info", "Refund Momo Service Request successfully returned 200 Response body >>> ");
+      var result = {};
+      result.response = body.ResponseCode;
+      result.body = body.Data;
+      console.log('result body >>>>', result);
+      logger.log("initial callback from Service Provider" + result);
+      res.status(200).json(result);
+    }
+  });
+
+} // Refund mobile money
+
 
 Momo.geTranStatus = function (req, res) {
   // https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/transactions/status?networkTransactionId=3629138929&hubtelTransactionId=HUBV9023LASFLAKS8
   var body = req.body,
     invoiceToken = "",
-    networkId=body.externalTransactionId,
-    hubtelId=body.transactionId,
-    url = config.hubtel.baseUrl+config.hubtel.tranStatusUrl+'networkTransactionId'+'='+networkId+'&'+'hubtelTransactionId'+'='+hubtelId,
+    networkId = body.externalTransactionId,
+    hubtelId = body.transactionId,
+    url = config.hubtel.baseUrl + config.hubtel.tranStatusUrl + 'networkTransactionId' + '=' + networkId + '&' + 'hubtelTransactionId' + '=' + hubtelId,
     auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
 
-    console.log('geTranStatus ', body);  
+  console.log('geTranStatus ', body);
   var options = {
     url: url,
     json: true,

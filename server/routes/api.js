@@ -29,7 +29,7 @@ var APIRoutes = function(passport) {
     router.post('/delivery', SmsRestService.getDeliveryReport);
     router.post('/callback', HubtelServiceController.callBack);
     router.post('/status', HubtelServiceController.geTranStatus);
-
+    router.post('/refund', HubtelServiceController.refund);
 
   // GET Routes.
     router.get('/peoples', AuthController.peoples );
