@@ -39,10 +39,11 @@ Momo.receiveMoney = function (req, res) {
     }
   };
   console.log("options >>>", options);
-  logger.log('options >>>', options);
+  logger.info('receive money request options >>>', JSON.stringify(options));
   request(options, function (error, response, body) {
     if (error) {
       console.log("error", "Error requesting receive momo >>> ", error);
+      logger.error(JSON.stringify(error));
       res.json(error);
     } else {
       console.log("info", "Receive Momo Service Request successfully returned 200 Response body>>");
@@ -50,7 +51,7 @@ Momo.receiveMoney = function (req, res) {
       result.response = body.ResponseCode;
       result.body = body.Data;
       console.log('result body >>>>', result);
-      logger.log("initial callback from Service Provider" + result);
+      logger.info("initial receivemoney callback from Service Provider" + result);
       res.status(200).json(result);
     }
   });
@@ -85,7 +86,7 @@ Momo.sendMoney = function (req, res) {
     }
   };
   console.log("send momo options >>>", options);
-  logger.info("send momo options >>>>" + options);
+  logger.info("send money request options >>>>" + JSON.stringify(options));
   request(options, function (error, response, body) {
     if (error) {
       console.log("error", "Error requesting sending momo >>> ", error);
@@ -97,7 +98,7 @@ Momo.sendMoney = function (req, res) {
       result.response = body.ResponseCode;
       result.body = body.Data;
       console.log('result body >>>>', result);
-      logger.log("initial callback from Service Provider" + result);
+      logger.info("initial callback from Service Provider" + JSON.stringify(result));
       res.status(200).json(result);
     }
   });
@@ -141,7 +142,7 @@ Momo.refund = function (req, res) {
       result.response = body.ResponseCode;
       result.body = body.Data;
       console.log('result body >>>>', result);
-      logger.log("initial callback from Service Provider" + result);
+      logger.info("initial callback from Service Provider" + JSON.stringify(result));
       res.status(200).json(result);
     }
   });
@@ -168,6 +169,7 @@ Momo.geTranStatus = function (req, res) {
     }
   };
   console.log("options >>>", options);
+  logger.log("Get transaction status", JSON.stringify(options));
   request(options, function (error, response, body) {
     // console.log(response);
     if (error) {
@@ -175,10 +177,12 @@ Momo.geTranStatus = function (req, res) {
       logger.error('error tracking transaction status');
       res.status(500).json(error);
     } else {
-      console.log("info", "Successful Momo transaction status >>");
-      logger.info("Momo transaction status >>>>", body);
       var result = {};
-      res.status(200).json(body);
+      result.response = body.ResponseCode;
+      result.body = body.Data;
+      console.log('result body >>>>', result);
+      logger.info("initial callback from Service Provider" + JSON.stringify(result));
+      res.status(200).json(result);
     }
   });
 
