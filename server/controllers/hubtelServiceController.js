@@ -191,8 +191,7 @@ Momo.geTranStatus = function (req, res) {
 Momo.callBack = function (req, res) {
   var body = req.body;
   console.log('listen to Telco callback within 30secs >>>', body);
-  logger.log(body);
-
+  logger.info("30secs final callback from telco :::: "+JSON.stringify(body));
   res.status(201).json(body);
 } //Momo callback responses
 
