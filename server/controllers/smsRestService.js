@@ -55,10 +55,7 @@ smsRestService.getDeliveryReport = function (req, res) {
   var body = req.body,
     url = config.infoBib.baseUrl + config.infoBib.getDeliveryReport,
     auth = "Basic " + new Buffer(body.clientId + ":" + body.clientSecret).toString("base64");
-
-  logger.info('info', 'body request >>');
-  logger.info('info', body);
-
+    
   var payload = {
     "from": req.body.from,
     "to": req.body.to,
@@ -76,7 +73,6 @@ smsRestService.getDeliveryReport = function (req, res) {
   };
   console.log("options >>>", options);
   logger.info("postSMS options == "+ options);
-  logger.log("postSMS options == "+ options);
 
   request(options, function (error, response, body) {
     // console.log('sms', response);
@@ -86,8 +82,8 @@ smsRestService.getDeliveryReport = function (req, res) {
       logger.error("error sms >>> ", error);
       res.json(error);
     } else {
-      logger.log("infobip", "successful response ------------------");
-      // logger.log('infobip response body >>>>', body);
+      console.log("infobip", "successful response --------------");
+      logger.info('infobip response body >>>>', JSON.stringify(body));
       res.status(200).json(body);
     }
   });
