@@ -58,7 +58,7 @@ config.accessLevels = {
 
 config.transporter = nodemailer.createTransport({
   service: 'gmail',
-  auth: { user: 'etzghana@gmail.com', pass: '#tr1nz13t' }
+  auth: { user: 'pymira@gmail.com', pass: 'digimas14' }
 });
 
 config.hubtel = {
@@ -72,10 +72,10 @@ config.hubtel = {
 
 config.infoBib = {
   baseUrl: "https://api.infobip.com/",
-  userName: "SASFinance",
-  password: "SasF2083",
+  userName: "DafabetGH",
+  password: "D@f@Bet*SaS",
   sendSmsUrl: "sms/1/text/single",
-  smsDeliveryReportUrl: "sms/1/reports",
+  smsDeliveryReportUrl: "sms/1/reports?",
   smsLogsUrl:"sms/1/logs"
 }
 

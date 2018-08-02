@@ -25,7 +25,7 @@ Momo.receiveMoney = function (req, res) {
     "Amount": body.amount,
     "PrimaryCallbackUrl": body.primaryCallbackUrl,
     "Description": body.description,
-    "Token": "",
+    "Token": body.token,
     "ClientReference": body.clientReference
   };
 

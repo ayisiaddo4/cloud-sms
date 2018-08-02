@@ -23,13 +23,13 @@ mailerController.doPost = function (req, res) {
         text: body.body
     };
     
-    logger.info('info: ',mailOptions);
+    logger.log('info: ',mailOptions);
     config.transporter.sendMail(mailOptions, function (error, info) {
         if (error) {
             console.log(error);
             logger.log('error: true', 'pushing sending mail >>>',error);
         } else {
-            logger.log('error: false','successful response', info);
+            logger.info('error: false','successful response', info);
             console.log('Email sent: ' + info.response);
             res.json(info);
         }
