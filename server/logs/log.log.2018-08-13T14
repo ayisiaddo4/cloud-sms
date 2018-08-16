@@ -1,0 +1,6 @@
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T14:00:15.817Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T14:00:18.036Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T14:10:27.087Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T14:10:29.071Z"}
+{"level":"info","message":"receive money request options >>> {\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/receive/mobilemoney\",\"json\":true,\"body\":{\"CustomerName\":\"Hanson Peprah\",\"CustomerMsisdn\":\"233244588584\",\"CustomerEmail\":\"hanson.peprah@gmail.com\",\"Channel\":\"mtn-gh\",\"Amount\":0.1,\"PrimaryCallbackUrl\":\"https://webhook.site/df35ffc8-2176-4b64-8cc9-b173db216b68\",\"Description\":\"MTN receive money from py after mtn changes\",\"ClientReference\":\"CLDAFK30000130820180006\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-08-13T14:14:15.618Z"}
+{"level":"info","message":"initial receivemoney callback from Service Provider[object Object]","timestamp":"2018-08-13T14:14:17.462Z"}

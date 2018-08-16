@@ -1,0 +1,10 @@
+{"level":"info","message":"receive money request options >>> {\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/receive/mobilemoney\",\"json\":true,\"body\":{\"CustomerName\":\"Ayisi Addo\",\"CustomerMsisdn\":\"233244588584\",\"CustomerEmail\":\"aysiaddo@gmail.com\",\"Channel\":\"mtn-gh\",\"Amount\":1,\"PrimaryCallbackUrl\":\"http://196.61.32.218/api/callback\",\"Description\":\"MTN receive money api changes\",\"Token\":\"\",\"ClientReference\":\"CLDAFK3000080820180001\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-08-08T11:19:14.567Z"}
+{"level":"info","message":"initial receivemoney callback from Service Provider[object Object]","timestamp":"2018-08-08T11:19:17.173Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-08T11:20:18.128Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-08T11:20:19.530Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-08T11:30:26.840Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-08T11:30:29.199Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-08T11:40:37.778Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-08T11:40:39.868Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-08T11:50:46.275Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-08T11:50:48.843Z"}
