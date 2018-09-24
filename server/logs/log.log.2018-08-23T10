@@ -1,0 +1,14 @@
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:06:41.114Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:06:45.536Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:16:53.374Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:16:54.984Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:27:01.242Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:27:02.602Z"}
+{"level":"info","message":"send money request options >>>>{\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/send/mobilemoney\",\"json\":true,\"body\":{\"RecipientName\":\"Hanson Peprah\",\"RecipientMsisdn\":\"233278405246\",\"CustomerEmail\":\"digimax1014@gmail.com\",\"Channel\":\"tigo-gh\",\"Amount\":8,\"PrimaryCallbackUrl\":\"http://196.61.32.218./api/callback\",\"SecondaryCallbackUrl\":\"https://webhook.site/564e3d45-13a0-48b5-a523-aa5772457e33\",\"Description\":\"Vodafone send money\",\"ClientReference\":\"CLDAK300D23082018003\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dHJkc2Nzbmk6cHNncW90eXo=\"}}","timestamp":"2018-08-23T10:32:51.345Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":{\"AmountDebited\":8.1,\"TransactionId\":\"794b4a9bd0fd487898e26acd2f8272c8\",\"ClientReference\":\"CLDAK300D23082018003\",\"Description\":\"Tigo Cash payment has been made successfully.\",\"ExternalTransactionId\":\"CI180823.1033.C04208\",\"Amount\":8,\"Charges\":0.1,\"Meta\":null}}","timestamp":"2018-08-23T10:32:54.158Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:37:08.310Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:37:09.654Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:47:15.365Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:47:17.099Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:57:23.567Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-23T10:57:25.411Z"}

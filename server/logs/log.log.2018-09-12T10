@@ -1,0 +1,47 @@
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:00:38.251Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:00:41.145Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:00:44.942Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:00:47.318Z"}
+{"level":"info","message":"receive money request options >>> {\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/receive/mobilemoney\",\"json\":true,\"body\":{\"CustomerName\":\"First Name Last Name\",\"CustomerMsisdn\":\"233278405246\",\"CustomerEmail\":null,\"Channel\":\"tigo-gh\",\"Amount\":0.1,\"PrimaryCallbackUrl\":\"http://112.199.111.156:6070/m/cacb/verify\",\"Description\":\"Deposit. Status: Pending, Amount: 0.10 to Mobile Number 233278405246\",\"Token\":null,\"ClientReference\":\"10834775\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-09-12T10:02:49.159Z"}
+{"level":"info","message":"initial receivemoney callback from Service Provider[object Object]","timestamp":"2018-09-12T10:02:51.395Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:06:43.374Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:06:45.328Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:06:46.875Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:06:49.501Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:06:51.487Z"}
+{"level":"info","message":"receive money request options >>> {\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/receive/mobilemoney\",\"json\":true,\"body\":{\"CustomerName\":\"Hanson Peprah\",\"CustomerMsisdn\":\"233244588584\",\"CustomerEmail\":\"hansonrome@yahoo.com\",\"Channel\":\"tigo-gh\",\"Amount\":0.1,\"PrimaryCallbackUrl\":\"http://196.61.32.218:3000/api/callback\",\"Description\":\"Tigo receive money service test.\",\"ClientReference\":\"CLDAFK30000120920180002\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-09-12T10:11:30.551Z"}
+{"level":"info","message":"initial receivemoney callback from Service Provider[object Object]","timestamp":"2018-09-12T10:11:31.619Z"}
+{"level":"info","message":"receive money request options >>> {\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/receive/mobilemoney\",\"json\":true,\"body\":{\"CustomerName\":\"First Name Last Name\",\"CustomerMsisdn\":\"233278405246\",\"CustomerEmail\":null,\"Channel\":\"tigo-gh\",\"Amount\":0.1,\"PrimaryCallbackUrl\":\"http://112.199.111.156:6070/m/cacb/verify\",\"Description\":\"Deposit. Status: Pending, Amount: 0.10 to Mobile Number 233278405246\",\"Token\":null,\"ClientReference\":\"10834776\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-09-12T10:12:51.419Z"}
+{"level":"info","message":"initial receivemoney callback from Service Provider[object Object]","timestamp":"2018-09-12T10:12:52.327Z"}
+{"level":"info","message":"receive money request options >>> {\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/receive/mobilemoney\",\"json\":true,\"body\":{\"CustomerName\":\"Hanson Peprah\",\"CustomerMsisdn\":\"233278405246\",\"CustomerEmail\":\"hansonrome@yahoo.com\",\"Channel\":\"tigo-gh\",\"Amount\":0.1,\"PrimaryCallbackUrl\":\"http://196.61.32.218:3000/api/callback\",\"Description\":\"Tigo receive money service test.\",\"ClientReference\":\"CLDAFK30000120920180002\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-09-12T10:13:38.606Z"}
+{"level":"info","message":"initial receivemoney callback from Service Provider[object Object]","timestamp":"2018-09-12T10:13:39.403Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:16:58.295Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:16:59.545Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:17:00.802Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:17:02.535Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:17:05.037Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:17:06.994Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:27:13.406Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:27:14.868Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:27:17.025Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:27:19.810Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:27:21.742Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:27:23.526Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:37:30.245Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:37:31.950Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:37:33.870Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:37:35.433Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:37:38.073Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:37:39.777Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:47:55.195Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:47:57.055Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:47:58.868Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:48:00.603Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:48:02.510Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:48:04.182Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:58:11.308Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:58:12.699Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:58:17.291Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:58:18.839Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:58:20.636Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T10:58:22.573Z"}

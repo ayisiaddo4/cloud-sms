@@ -134,7 +134,7 @@ Momo.refund = function (req, res) {
   request(options, function (error, response, body) {
     if (error) {
       console.log("error", "Error requesting refund >>> ", error);
-      logger.error("Error requesting refund :::" +error);
+      logger.error("Error requesting refund :::" + error);
       res.json(error);
     } else {
       console.log("info", "Refund Momo Service Request successfully returned 200 Response body >>> ");
@@ -189,10 +189,19 @@ Momo.geTranStatus = function (req, res) {
 } //get transaction status
 
 Momo.callBack = function (req, res) {
-  var body = req.body;
-  console.log('listen to Telco callback within 30secs >>>', body);
-  logger.info("30secs final callback from telco :::: "+JSON.stringify(body));
-  res.status(201).json(body);
+  var body = req.body,
+    getResponse = 'Response from Cloud Africa callback ...'
+
+  if (req.method == "GET") {
+    // do form handling
+    console.log('log callback >>> ', getResponse);
+    res.status(201).json(getResponse);
+  } else {
+    console.log('listen to Telco callback within 30secs >>>', body);
+    logger.info("30secs final callback from telco :::: " + JSON.stringify(body));
+    res.status(201).json(body);
+  }
+
 } //Momo callback responses
 
 

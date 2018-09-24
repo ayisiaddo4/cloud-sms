@@ -1,0 +1,14 @@
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:06:47.599Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:06:48.724Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:15:30.387Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:15:31.716Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:25:37.836Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:25:38.993Z"}
+{"level":"info","message":"send money request options >>>>{\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/send/mobilemoney\",\"json\":true,\"body\":{\"RecipientName\":\"First Name Last Name\",\"RecipientMsisdn\":\"233232406302\",\"CustomerEmail\":null,\"Channel\":null,\"Amount\":1280,\"PrimaryCallbackUrl\":\"http://112.199.111.156:6070/m/cacb/verify\",\"Description\":\"Withdrawal. Status: Approved, Amount: 1280.00 to Mobile Number 233232406302\",\"ClientReference\":\"13370241\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-09-12T03:25:41.850Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"4010\"}","timestamp":"2018-09-12T03:25:42.209Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:35:46.345Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:35:47.737Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:47:34.458Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:47:36.149Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:57:42.337Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-12T03:57:43.525Z"}

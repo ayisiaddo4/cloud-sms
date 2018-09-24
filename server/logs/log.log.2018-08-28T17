@@ -1,0 +1,13 @@
+{"level":"info","message":"send money request options >>>>{\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/send/mobilemoney\",\"json\":true,\"body\":{\"RecipientName\":\"John Sesenu\",\"RecipientMsisdn\":\"233244588584\",\"CustomerEmail\":\"digimax1014@gmail.com\",\"Channel\":\"mtn-gh\",\"Amount\":98,\"PrimaryCallbackUrl\":\"http://196.61.32.218./api/callback\",\"SecondaryCallbackUrl\":\"https://vas.cloud-africa.io/api/callback\",\"Description\":\"Payment for Togbe pictures from EMY Awards 18 night\",\"ClientReference\":\"CLDAK300D28082018002\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dHJkc2Nzbmk6cHNncW90eXo=\"}}","timestamp":"2018-08-28T17:16:19.874Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:16:21.233Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":{\"AmountDebited\":98.98,\"TransactionId\":\"0efb67f6ee9c49a9a465132b341a43b1\",\"ClientReference\":\"CLDAK300D28082018002\",\"Description\":\"MTN Mobile Money payment has been made successfully.\",\"ExternalTransactionId\":\"4146095079\",\"Amount\":98,\"Charges\":0.98,\"Meta\":null}}","timestamp":"2018-08-28T17:16:21.530Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:16:22.186Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:16:26.031Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:26:32.627Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:26:33.721Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:36:40.374Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:36:41.640Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:46:47.007Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:46:48.352Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:56:53.764Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-28T17:56:54.967Z"}
