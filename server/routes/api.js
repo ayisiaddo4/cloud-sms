@@ -11,7 +11,8 @@ var config = require('../config'),
     GroupServiceController = require('../controllers/groupServerController'),
     NodeMailController = require('../controllers/nodeMailer'),
     HubtelServiceController = require('../controllers/hubtelServiceController'),
-    SmsRestService = require('../controllers/smsRestService');
+    SmsRestService = require('../controllers/smsRestService'),
+    McUSSDSeviceController = require('../controllers/mcussd.service.controller');
 
 
 var APIRoutes = function(passport) {
@@ -30,6 +31,7 @@ var APIRoutes = function(passport) {
     router.post('/callback', HubtelServiceController.callBack);
     router.post('/status', HubtelServiceController.geTranStatus);
     router.post('/refund', HubtelServiceController.refund);
+    router.post('/ussdcallback', McUSSDSeviceController.ussdCallBack);
 
   // GET Routes.
     router.get('/peoples', AuthController.peoples );
@@ -51,6 +53,8 @@ var APIRoutes = function(passport) {
     router.get('/status', HubtelServiceController.geTranStatus);
     router.get('/callback', HubtelServiceController.callBack);
     router.get('/smsdelivery', SmsRestService.getDeliveryReport);
+    router.get('/mcreceiver', McUSSDSeviceController.ussdReceiver);
+    router.get('/ussdcallback', McUSSDSeviceController.ussdCallBack);
 
   return router;
 };
