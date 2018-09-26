@@ -42,7 +42,7 @@ MCUssd.ussdCallBack = function (req, res) {
   var body = req.body,
       baseUrl ="http://52.214.1.251/m/index.php/MccUSSDReception/",
       responseUrl ="USSDserviceClientResponse?",
-      ussdcode="*244*2",
+      ussdcode="*244*2#",
       message=`Welcome, Cloud Africa
                1. Check Balance
                2. Check Phone Number
