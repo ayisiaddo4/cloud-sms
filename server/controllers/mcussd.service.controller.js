@@ -40,6 +40,8 @@ MCUssd.ussdReceiver = function (req, callback) {
 MCUssd.ussdCallBack = function (req, res) {
   
   var body = req.body,
+      session_id="",
+      type="",
       baseUrl ="http://52.214.1.251/m/index.php/MccUSSDReception/",
       responseUrl ="USSDserviceClientResponse?",
       ussdcode="*244*2#",
@@ -61,13 +63,11 @@ request(options, function (error, response, body) {
   // console.log(response);
   if (error) {
     console.log("error", "Error requesting MCUssd transaction status >>> ", error);
-    logger.error('error tracking transaction status');
+    logger.info(error);
     res.status(500).json(error);
   } else {
-    var result = {};
-    result.response = body.ResponseCode;
-    result.body = body.Data;
-    console.log('result body >>>>', result);
+   
+    console.log('ussd response >>>>');
     logger.info("initial callback from Service Provider" + JSON.stringify(body));
     res.status(201).json(body);
   }
