@@ -79,4 +79,14 @@ config.infoBib = {
   smsLogsUrl:"sms/1/logs"
 }
 
-
+config.mc= {
+  baseUrl: "http://52.214.1.251/m/index.php/MccUSSDReception/",
+  clientResponseUrl: "USSDserviceClientResponse?",
+  registerEndpoint: "USSDserviceClientRegisterEndpoint?",
+  activateAccount:"USSDserviceClientAccountCheck?",
+  ussd_code: "*244*2",
+  message:`Welcome to Cloud Africa
+  1. Services 
+  0. Help
+  `
+}

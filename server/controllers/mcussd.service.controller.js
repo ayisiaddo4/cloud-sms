@@ -38,27 +38,34 @@ MCUssd.ussdReceiver = function (req, callback) {
 } //get transaction status
 
 MCUssd.ussdCallBack = function (req, res) {
-  
   var body = req.body,
-      session_id="",
-      type="",
-      baseUrl ="http://52.214.1.251/m/index.php/MccUSSDReception/",
-      responseUrl ="USSDserviceClientResponse?",
-      ussdcode="*244*2#",
-      message=`Welcome, Cloud Africa
-               1. Check Balance
-               2. Check Phone Number
-               `,
-      phone="233244588584",
-      url = baseUrl+responseUrl+"ussd_code"+"="+ussdcode+ "&" +"response_message"+"="+message+ "&" + "phone_number"+"="+phone;
+      session_id=req.query.session_id,
+      type=req.query.type,
+      user_request=req.query.user_request,
+      phone=req.query.phone_number,
+      baseUrl =config.mc.baseUrl,
+      responseUrl =config.mc.clientResponseUrl,
+      ussdcode=config.mc.ussd_code,
+      message=config.mc.message,
+      url = baseUrl+responseUrl+"ussd_code"+"="+ussdcode+"&"+"response_message"+"="+message+"&"+"phone_number"+"="+phone;
+
+console.log('request body >>>',body);
 
 var options = {
   url: url,
   json: true,
   method: "POST"
 };
-console.log("options >>>", options);
-logger.log("Get transaction status", JSON.stringify(options));
+console.log("==================================");
+console.log("ussd_code >>>", ussdcode);
+console.log("response_message >>>", message);
+console.log("phone number >>>", phone);
+console.log("user request >>>", user_request);
+console.log("Session Id >>>", session_id);
+console.log("mcUrl >>>"+url);
+console.log("==================================");
+
+logger.info("Get transaction status", JSON.stringify(options));
 request(options, function (error, response, body) {
   // console.log(response);
   if (error) {
@@ -66,8 +73,11 @@ request(options, function (error, response, body) {
     logger.info(error);
     res.status(500).json(error);
   } else {
-   
-    console.log('ussd response >>>>');
+    
+    // var durl = body, 
+    //     phone_number = durl.substr(18,25);
+    // console.log('phone from query string >>>>',phone_number);
+    console.log('response from ussd <<< ',body);
     logger.info("initial callback from Service Provider" + JSON.stringify(body));
     res.status(201).json(body);
   }
