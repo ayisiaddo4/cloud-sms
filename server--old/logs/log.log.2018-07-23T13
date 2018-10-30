@@ -1,0 +1,18 @@
+{"level":"info","message":"info body request >>","timestamp":"2018-07-23T13:00:41.640Z"}
+{"clientId":"SASFinance","clientSecret":"SasF2083","fromAddr":"hanson.peprah@outlook.com","toAddr":"pymira@gmail.com‬","subject":"Momo Response","body":"The MTN Mobile Money payment has been approved and processed successfully to Oph. ExternalTransactionId: a07004be6e454e648f11821894d43653","level":"info","message":"info","timestamp":"2018-07-23T13:00:41.641Z"}
+{"from":"hanson.peprah@outlook.com","to":"pymira@gmail.com‬","subject":"Momo Response","text":"The MTN Mobile Money payment has been approved and processed successfully to Oph. ExternalTransactionId: a07004be6e454e648f11821894d43653","level":"info","message":"info: ","timestamp":"2018-07-23T13:00:41.641Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-07-23T13:09:12.803Z"}
+{"fromAddr":"pymira@gmail.com","toAddr":"hanson.peprah@outlook.com‬","subject":"Momo Response","body":"The MTN Mobile Money payment has been approved and processed successfully to Oph. ExternalTransactionId: a07004be6e454e648f11821894d43653","level":"info","message":"info","timestamp":"2018-07-23T13:09:12.803Z"}
+{"from":"pymira@gmail.com","to":"hanson.peprah@outlook.com‬","subject":"Momo Response","text":"The MTN Mobile Money payment has been approved and processed successfully to Oph. ExternalTransactionId: a07004be6e454e648f11821894d43653","level":"info","message":"info: ","timestamp":"2018-07-23T13:09:12.807Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-07-23T13:19:43.902Z"}
+{"fromAddr":"pymira@gmail.com","toAddr":"hanson.peprah@outlook.com‬","subject":"Momo Response","body":"Mail sending test","level":"info","message":"info","timestamp":"2018-07-23T13:19:43.904Z"}
+{"from":"pymira@gmail.com","to":"hanson.peprah@outlook.com‬","subject":"Momo Response","text":"Mail sending test","level":"info","message":"info: ","timestamp":"2018-07-23T13:19:43.905Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-07-23T13:24:38.874Z"}
+{"fromAddr":"pymira@gmail.com","toAddr":"hanson.peprah@outlook.com‬","subject":"Momo Response","body":"Mail sending test","level":"info","message":"info","timestamp":"2018-07-23T13:24:38.876Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-07-23T13:49:16.569Z"}
+{"fromAddr":"pymira@gmail.com","toAddr":"hanson.peprah@outlook.com‬","subject":"Momo Response","body":"Mail sending test","level":"info","message":"info","timestamp":"2018-07-23T13:49:16.572Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-07-23T13:56:24.134Z"}
+{"fromAddr":"pymira@gmail.com","toAddr":"hanson.peprah@outlook.com‬","subject":"Momo Response","body":"Mail sending test","level":"info","message":"info","timestamp":"2018-07-23T13:56:24.136Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-07-23T13:58:30.961Z"}
+{"fromAddr":"pymira@gmail.com","toAddr":"hanson.peprah@outlook.com‬","subject":"Momo Response","body":"Mail sending test","level":"info","message":"info","timestamp":"2018-07-23T13:58:30.961Z"}
+{"accepted":["pymira@gmail.com"],"rejected":[],"envelopeTime":965,"messageTime":1095,"messageSize":294,"response":"250 2.0.0 OK 1532354314 l15-v6sm10259344wrt.67 - gsmtp","envelope":{"from":"hanson.peprah@outlook.com","to":["pymira@gmail.com"]},"messageId":"<3948e6ca-8372-19ca-6535-f523bdd51ec0@outlook.com>","level":"info","message":"error: false successful response","timestamp":"2018-07-23T13:58:34.450Z"}

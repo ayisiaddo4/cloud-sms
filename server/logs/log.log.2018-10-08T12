@@ -1,0 +1,8 @@
+{"level":"info","message":"info body request >>","timestamp":"2018-10-08T12:12:27.149Z"}
+{"fromAddr":"sasim@sasghana.com","toAddr":"ayisi@cloud-africa.io","subject":"Test email","body":"<h1>Hello Ghana, email server test </h1>","level":"info","message":"info","timestamp":"2018-10-08T12:12:27.151Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-08T12:23:06.106Z"}
+{"fromAddr":"hansonrome@yahoo.com","toAddr":"hanson@cloud-africa.io","subject":"Test email","body":"<h1>Hello Ghana, email server test </h1>","level":"info","message":"info","timestamp":"2018-10-08T12:23:06.109Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-08T12:24:03.630Z"}
+{"fromAddr":"nabiypy@gmail.com","toAddr":"hanson@cloud-africa.io","subject":"Test email","body":"Hello Ghana","level":"info","message":"info","timestamp":"2018-10-08T12:24:03.632Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-08T12:48:50.582Z"}
+{"fromAddr":"nabiypy@gmail.com","toAddr":"pymira@gmail.omm.io","subject":"Post mail test","body":"Hello Ghana","level":"info","message":"info","timestamp":"2018-10-08T12:48:50.584Z"}

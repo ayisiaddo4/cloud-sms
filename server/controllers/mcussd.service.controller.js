@@ -8,38 +8,74 @@ var config = require('../config'),
   db = require('../models/database'),
   logger = require("./logger"),
   utils = require("../utils/utils"),
+  locallydb = require('locallydb'),
+  db = new locallydb('../models'),
+  collection = db.collection('monsters'),
   MCUssd = {};
 
-MCUssd.ussdReceiver = function (req, callback) {
-    req.ussdcode = "*244*2",
-    req.phone = "233552492165",
-    req.message = `Welcome, Cloud Africa, Check
-              1. Account Balance.
-              2. Phone number
-              `;
+MCUssd.acCheck = function (req, res) {
+  var body = req.body,
+    ussd_code = body.ussd_code,
+    service_token = body.service_token,
+    url = config.mc.baseUrl + config.mc.activateAccount + "service_token" + "=" + service_token + "&" + "ussd_code" + "=" + ussd_code;
 
-
-  this.mcallBack(req, function (error, response, body) {
-    // console.log(response);
+  var options = {
+    url: url,
+    json: true,
+    method: "POST"
+  };
+  console.log("mc ussd account check options >>>", options);
+  logger.info('Options parametes for MC Account Check >>>', JSON.stringify(options));
+  request(options, function (error, response, body) {
     if (error) {
-      console.log("error", "Error requesting MCUssd transaction status >>> ", error);
-      logger.error('error tracking transaction status');
-      res.status(500).json(error);
+      console.log("error", "Error requesting receive momo >>> ", error);
+      logger.info(JSON.stringify(error));
+      res.json(error);
     } else {
-      var result = {};
-      result.response = body.ResponseCode;
-      result.body = body.Data;
-      console.log('result body >>>>', result);
-      logger.info("initial callback from Service Provider" + JSON.stringify(result));
-      res.status(200).json(result);
+      console.log("info", "MC USSD Account Check Service Request successfully returned 200 Response body>>");
+      console.log('result body >>>>', body);
+      logger.info("initial receivemoney callback from Service Provider" + JSON.stringify(body));
+      res.status(200).json(body);
     }
   });
+} //Check USSD Account Active
 
-} //get transaction status
+MCUssd.registerEndpoint = function (req, res) {
+  var body = req.body,
+    ussd_code = body.ussd_code,
+    service_token = body.service_token,
+    endpoint = body.endpoint,
+    url = config.mc.baseUrl + config.mc.registerEndpoint + "service_token" + "=" + service_token + "&" + "ussd_code" + "=" + ussd_code + "&" + "endpoint" + "=" + endpoint;
+
+  console.log('register endpont request body' + JSON.stringify(body));
+  collection.insert({ussd_code: ussd_code, service_token: service_token, endpoint: endpoint});
+  var newendpoint = JSON.stringify(collection.get(0));
+  console.log('get collection' +newendpoint);
+  var options = {
+    url: url,
+    json: true,
+    method: "POST"
+  };
+  console.log("mc ussd endpoint options >>>", options);
+  logger.info('mc ussd endpoint options >>>', JSON.stringify(options));
+  request(options, function (error, response, body) {
+    if (error) {
+      console.log("error", "Error registering ussd enpoint >>> ", error);
+      logger.info(JSON.stringify(error));
+      res.json(error);
+    } else {
+      console.log("info", "MC USSD Register Endpoint Request successfully returned 200 Response body>>");
+      console.log('mc ussd endpoint response >>>>', body);
+      logger.info("mc ussd endpoint response log" + JSON.stringify(body));
+      res.status(200).json(body);
+    }
+  });
+} //Register endpoint
 
 MCUssd.ussdCallBack = function (req, res) {
-   var reqBody = req.body;
-    // console.log('incoming request body << >>>', reqBody);
+  var reqBody = req.body;
+    console.log('incoming request body << >>>', reqBody);
+    
   var session_id = reqBody.session_id,
     type = reqBody.type,
     user_request = reqBody.user_request,
@@ -47,22 +83,27 @@ MCUssd.ussdCallBack = function (req, res) {
     baseUrl = config.mc.baseUrl,
     responseUrl = config.mc.clientResponseUrl,
     ussdcode = config.mc.ussd_code,
-    message = reqBody.message,
+    message = config.mc.message,
+    clientendpoint,
     url =baseUrl +responseUrl +"ussd_code" +"="+ussdcode+ "&"+"response_message"+"=" +message + "&" +"phone_number"+"="+phone_number;
 
   console.log("==================================");
+  console.log("ussd_code >>>", ussdcode);
+  console.log("response_message >>>", message);
+  console.log("phone number >>>", phone_number);
   console.log("user request >>>", user_request);
   console.log("Session Id >>>", session_id);
-  console.log("Type >>>", type);
   console.log("mcUrl >>>" + url);
   console.log("==================================");
+  clientendpoint = collection.where({endpoint: endpoint});
+  console.log('collection retrieve endpoint', clientendpoint);
 
   var options = {
     url: url,
     json: true,
     method: "POST"
   };
-  logger.info("mc ussd callback options to post >>>", JSON.stringify(options));
+  logger.info("options to post >>>", JSON.stringify(options));
   request(options, function (error, response, body) {
     // console.log(response);
     if (error) {
@@ -79,6 +120,7 @@ MCUssd.ussdCallBack = function (req, res) {
       res.status(200).json(body);
     }
   });
+
 } //MCUssd callback responses
 
 

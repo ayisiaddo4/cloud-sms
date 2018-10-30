@@ -1,0 +1,8 @@
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=undefined&Text=undefined\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T14:03:49.663Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T14:03:50.067Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233‬244588584&Text=SMS Test to Short Code from Dafabet\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T14:04:17.137Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T14:04:17.498Z"}
+{"level":"info","message":"request from Mobile Content{\"receiver\":\"233555223877‬\",\"message\":\"SMS Test to Short Code from Dafabet\"}","timestamp":"2018-10-24T14:05:37.395Z"}
+{"level":"info","message":"request from Mobile Content{\"receiver\":\"233555223877‬\",\"message\":\"SMS Test to Short Code from Dafabet\"}","timestamp":"2018-10-24T14:35:59.710Z"}
+{"sender":"233556589810","text":"Sobolo test","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T14:44:15.978Z"}
+{"level":"info","message":"listent to mc post request http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233556589810&Text=Sobolo test","timestamp":"2018-10-24T14:44:15.983Z"}

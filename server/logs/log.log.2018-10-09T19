@@ -1,0 +1,18 @@
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T19:11:24.326Z"}
+{"fromAddr":"Ayisi Addo <ayisiaddo4@gmail.com>","toAddr":"pymira@gmail.com","subject":"Cloud Africa Mail Server","body":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info","timestamp":"2018-10-09T19:11:24.331Z"}
+{"from":"Ayisi Addo <ayisiaddo4@gmail.com>","to":"pymira@gmail.com","subject":"Cloud Africa Mail Server","html":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info: ","timestamp":"2018-10-09T19:11:24.332Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T19:11:44.439Z"}
+{"fromAddr":"Ayisi Addo <ayisiaddo4@gmail.com>","toAddr":"pymira@gmail.com","subject":"Cloud Africa Mail Server","body":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info","timestamp":"2018-10-09T19:11:44.439Z"}
+{"from":"Ayisi Addo <ayisiaddo4@gmail.com>","to":"pymira@gmail.com","subject":"Cloud Africa Mail Server","text":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info: ","timestamp":"2018-10-09T19:11:44.440Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T19:41:40.125Z"}
+{"fromAddr":"Ayisi Addo <ayisiaddo4@gmail.com>","toAddr":"pymira@gmail.com","subject":"Cloud Africa Mail Server","body":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info","timestamp":"2018-10-09T19:41:40.126Z"}
+{"from":"Ayisi Addo <ayisiaddo4@gmail.com>","to":"pymira@gmail.com","subject":"Cloud Africa Mail Server","text":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info: ","timestamp":"2018-10-09T19:41:40.127Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T19:42:17.943Z"}
+{"fromAddr":"Ayisi Addo <ayisiaddo4@gmail.com>","toAddr":"pymira@gmail.com","subject":"Cloud Africa Mail Server","body":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info","timestamp":"2018-10-09T19:42:17.945Z"}
+{"from":"Ayisi Addo <ayisiaddo4@gmail.com>","to":"pymira@gmail.com","subject":"Cloud Africa Mail Server","text":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info: ","timestamp":"2018-10-09T19:42:17.945Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T19:43:44.215Z"}
+{"fromAddr":"Ayisi Addo <ayisiaddo4@gmail.com>","toAddr":"pymira@gmail.com","subject":"Cloud Africa Mail Server","body":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info","timestamp":"2018-10-09T19:43:44.217Z"}
+{"from":"Ayisi Addo <ayisiaddo4@gmail.com>","to":"pymira@gmail.com","subject":"Cloud Africa Mail Server","text":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info: ","timestamp":"2018-10-09T19:43:44.218Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T19:44:15.000Z"}
+{"fromAddr":"Ayisi Addo <ayisiaddo4@gmail.com>","toAddr":"pymira@gmail.com","subject":"Cloud Africa Mail Server","body":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info","timestamp":"2018-10-09T19:44:15.002Z"}
+{"from":"Ayisi Addo <ayisiaddo4@gmail.com>","to":"pymira@gmail.com","subject":"Cloud Africa Mail Server","text":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info: ","timestamp":"2018-10-09T19:44:15.003Z"}

@@ -1,0 +1,16 @@
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:09:03.521Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:09:05.807Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:19:11.780Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:19:13.837Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:29:20.106Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:29:23.895Z"}
+{"level":"info","message":"send money request options >>>>{\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/send/mobilemoney\",\"json\":true,\"body\":{\"RecipientName\":\"armin delrosario\",\"RecipientMsisdn\":\"233233488031\",\"CustomerEmail\":null,\"Channel\":null,\"Amount\":1000,\"PrimaryCallbackUrl\":\"http://112.199.111.156:6070/m/cacb/verify\",\"Description\":\"Withdrawal. Status: Approved, Amount: 1000.00 to Mobile Number 233233488031\",\"ClientReference\":\"13362523\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-08-03T16:30:24.251Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"4010\"}","timestamp":"2018-08-03T16:30:24.813Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:39:30.264Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:39:32.289Z"}
+{"level":"info","message":"send money request options >>>>{\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/send/mobilemoney\",\"json\":true,\"body\":{\"RecipientName\":\"armin delrosario\",\"RecipientMsisdn\":\"233233488031\",\"CustomerEmail\":null,\"Channel\":null,\"Amount\":1234,\"PrimaryCallbackUrl\":\"http://112.199.111.156:6070/m/cacb/verify\",\"Description\":\"Withdrawal. Status: Approved, Amount: 1234.00 to Mobile Number 233233488031\",\"ClientReference\":\"13362528\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-08-03T16:40:28.871Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"4010\"}","timestamp":"2018-08-03T16:40:29.308Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:49:38.563Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:49:43.592Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:59:52.186Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-03T16:59:54.636Z"}

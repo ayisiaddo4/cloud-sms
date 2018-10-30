@@ -1,0 +1,3 @@
+{"level":"info","message":"info body request >>","timestamp":"2018-10-11T09:58:50.357Z"}
+{"fromAddr":"Ayisi Addo <ayisiaddo4@gmail.com>","toAddr":"pymira@gmail.com","subject":"Cloud Africa Mail Server","body":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info","timestamp":"2018-10-11T09:58:50.360Z"}
+{"from":"Ayisi Addo <ayisiaddo4@gmail.com>","to":"pymira@gmail.com","subject":"Cloud Africa Mail Server","text":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info: ","timestamp":"2018-10-11T09:58:50.361Z"}

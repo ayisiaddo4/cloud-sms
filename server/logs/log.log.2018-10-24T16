@@ -1,0 +1,10 @@
+{"sender":"233247642367","text":"TAJ","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T16:12:19.872Z"}
+{"level":"info","message":"URL Path to post to MC http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233247642367&Text=TAJ","timestamp":"2018-10-24T16:12:19.876Z"}
+{"sender":"233245335159","text":"6th February 2003","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T16:24:55.259Z"}
+{"level":"info","message":"URL Path to post to MC http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233245335159&Text=6th February 2003","timestamp":"2018-10-24T16:24:55.261Z"}
+{"sender":"233241229288","text":"30-10-1952","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T16:28:32.327Z"}
+{"level":"info","message":"URL Path to post to MC http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233241229288&Text=30-10-1952","timestamp":"2018-10-24T16:28:32.328Z"}
+{"sender":"233556529643","text":"w w oke it","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T16:46:11.865Z"}
+{"level":"info","message":"URL Path to post to MC http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233556529643&Text=w w oke it","timestamp":"2018-10-24T16:46:11.869Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-24T16:48:20.511Z"}
+{"clientId":"SASFinance","clientSecret":"*AsoGli@123*","from":"CloudAfrica","to":"233552492165","text":"Send sms to py phone ...","level":"info","message":"info","timestamp":"2018-10-24T16:48:20.512Z"}

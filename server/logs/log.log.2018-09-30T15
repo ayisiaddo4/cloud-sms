@@ -1,0 +1,2 @@
+{"level":"info","message":"Options parametes for MC Account Check >>> {\"url\":\"http://52.214.1.251/m/index.php/MccUSSDReception/USSDserviceClientAccountCheck?service_token=mc-ussd-user-token-594ffd4f111cg&ussd_code=*244*2\",\"json\":true,\"method\":\"POST\"}","timestamp":"2018-09-30T15:50:57.145Z"}
+{"level":"info","message":"initial receivemoney callback from Service Provider{\"status_code:\":200,\"message\":\"account is active and operational.!\"}","timestamp":"2018-09-30T15:50:58.249Z"}

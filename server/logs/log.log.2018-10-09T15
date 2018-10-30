@@ -1,0 +1,8 @@
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T15:40:11.484Z"}
+{"fromAddr":"SASIM <sasim@sasghana.com>","toAddr":"boahemaa92@gmail.com","subject":"Cloud Africa Mail Server","body":"SMTP mail test from SASIM smtp port 587","level":"info","message":"info","timestamp":"2018-10-09T15:40:11.492Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T15:45:39.969Z"}
+{"fromAddr":"SASIM <sasim@sasghana.com>","toAddr":"boahemaa92@gmail.com","subject":"Cloud Africa Mail Server","body":"SMTP mail test from SASIM smtp port 587","level":"info","message":"info","timestamp":"2018-10-09T15:45:39.971Z"}
+{"from":"SASIM <sasim@sasghana.com>","to":"boahemaa92@gmail.com","subject":"Cloud Africa Mail Server","text":"SMTP mail test from SASIM smtp port 587","level":"info","message":"info: ","timestamp":"2018-10-09T15:45:39.972Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T15:46:56.674Z"}
+{"fromAddr":"SASIM <sasim@sasghana.com>","toAddr":"hanson@cloud-africa.io","subject":"Cloud Africa Mail Server","body":"SMTP mail test from SASIM smtp port 587","level":"info","message":"info","timestamp":"2018-10-09T15:46:56.676Z"}
+{"from":"SASIM <sasim@sasghana.com>","to":"hanson@cloud-africa.io","subject":"Cloud Africa Mail Server","text":"SMTP mail test from SASIM smtp port 587","level":"info","message":"info: ","timestamp":"2018-10-09T15:46:56.677Z"}

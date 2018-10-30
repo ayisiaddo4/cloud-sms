@@ -1,0 +1,12 @@
+{"level":"info","message":"request from Mobile Content\"Receiver?User=CldAfr1Pass=C1D2A3f4&From=1400&To=undefinedText=undefined\"","timestamp":"2018-10-24T13:41:28.755Z"}
+{"level":"info","message":"request from Mobile Content\"Receiver?User=CldAfr1Pass=C1D2A3f4&From=1400&To=undefinedText=undefined\"","timestamp":"2018-10-24T13:42:33.805Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1Pass=C1D2A3f4&From=1400&To=233552492165Text=SIGNUP\",\"json\":true,\"method\":\"POST\"}","timestamp":"2018-10-24T13:51:58.446Z"}
+{"level":"info","message":"'mc http sm response logundefined","timestamp":"2018-10-24T13:52:01.950Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233552492165Text=SIGNUP\",\"json\":true,\"method\":\"POST\"}","timestamp":"2018-10-24T13:54:05.550Z"}
+{"level":"info","message":"'mc http sm response logundefined","timestamp":"2018-10-24T13:54:05.945Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233552492165Text=SIGNUP\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T13:54:54.483Z"}
+{"level":"info","message":"'mc http sm response logundefined","timestamp":"2018-10-24T13:54:54.856Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233552492165&Text=SIGNUP\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T13:56:41.185Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T13:56:41.673Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233555223877‬&Text=SMS Test to Short Code from Dafabet\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T13:59:40.795Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T13:59:44.149Z"}

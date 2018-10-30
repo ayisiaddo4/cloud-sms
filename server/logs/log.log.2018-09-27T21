@@ -1,0 +1,2 @@
+{"level":"info","message":"Get transaction status {\"url\":\"http://52.214.1.251/m/index.php/MccUSSDReception/USSDserviceClientResponse?ussd_code=undefined&response_message=undefined&phone_number=undefined\",\"json\":true,\"method\":\"POST\"}","timestamp":"2018-09-27T21:26:19.795Z"}
+{"level":"info","message":"initial callback from Service Provider{\"status_code:\":200,\"message\":\"we have received your data\",\"reason\":\"phoneNumber: undefined   Response: undefined \"}","timestamp":"2018-09-27T21:26:20.066Z"}

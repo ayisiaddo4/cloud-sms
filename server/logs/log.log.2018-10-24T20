@@ -1,0 +1,12 @@
+{"sender":"233542982342","text":".","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T20:05:05.817Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233542982342&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T20:05:05.817Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T20:05:06.176Z"}
+{"sender":"233245612218","text":"+8;","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T20:05:06.349Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233245612218&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T20:05:06.364Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T20:05:06.714Z"}
+{"sender":"233246837770","text":"06","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T20:08:59.031Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233246837770&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T20:08:59.046Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T20:08:59.406Z"}
+{"sender":"233541653906","text":"4","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T20:10:44.041Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233541653906&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T20:10:44.057Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T20:10:44.418Z"}

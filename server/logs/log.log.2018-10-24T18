@@ -1,0 +1,36 @@
+{"sender":"233555704491","text":"5","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:05:18.694Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233555704491&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:05:18.694Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:05:19.038Z"}
+{"sender":"233549316054","text":"reygchol mlpmca","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:09:32.463Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233549316054&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:09:32.478Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:09:32.839Z"}
+{"sender":"233244588584","text":"BET MU= 1 JUV= 0","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:22:38.010Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233244588584&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:22:38.026Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:22:38.386Z"}
+{"sender":"233542389267","text":"june 11","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:28:07.046Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233542389267&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:28:07.046Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:28:07.405Z"}
+{"sender":"233545589322","text":",","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:28:16.176Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233545589322&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:28:16.191Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:28:16.551Z"}
+{"sender":"233247741229","text":"05-05-2003","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:28:48.156Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233247741229&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:28:48.156Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:28:48.501Z"}
+{"sender":"233554069144","text":"01/21/2002","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:32:20.661Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233554069144&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:32:20.661Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:32:21.021Z"}
+{"sender":"233550565317","text":"DECEMBER 06","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:33:43.906Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233550565317&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:33:43.909Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:33:44.254Z"}
+{"sender":"233242041382","text":"14august","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:36:24.541Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233242041382&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:36:24.541Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:36:24.901Z"}
+{"sender":"233248184160","text":"September 9 2000","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:48:57.854Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233248184160&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:48:57.854Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:48:58.215Z"}
+{"sender":"233244127326","text":"lkkkkvff","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:52:28.780Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233244127326&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:52:28.796Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:52:29.141Z"}
+{"sender":"233243987748","text":"May","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-24T18:53:44.036Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233243987748&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-24T18:53:44.052Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-24T18:53:44.414Z"}

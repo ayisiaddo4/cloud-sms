@@ -1,0 +1,6 @@
+{"sender":"233557142900","text":"1995","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-25T09:26:38.551Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233557142900&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-25T09:26:38.551Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-25T09:26:39.048Z"}
+{"sender":"233558411784","text":"July 31 1996","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-25T09:36:29.655Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233558411784&Text=SMS Successfully Sent. We will respond with your account balance soon.\",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-25T09:36:29.655Z"}
+{"level":"info","message":"'mc http sm response log\"Ok\"","timestamp":"2018-10-25T09:36:30.031Z"}

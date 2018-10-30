@@ -1,0 +1,12 @@
+{"sender":"233241336213","text":"23/3/2000","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-26T06:17:51.709Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233241336213&Text=Hi 233241336213, Your SMS is Successfully Sent. Kindly wait for response accordingly. Thank you \",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-26T06:17:51.709Z"}
+{"level":"info","message":"log successful response from Mobile Content >>> \"Ok\"","timestamp":"2018-10-26T06:17:52.163Z"}
+{"sender":"233544689184","text":"but","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-26T06:31:52.671Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233544689184&Text=Hi 233544689184, Your SMS is Successfully Sent. Kindly wait for response accordingly. Thank you \",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-26T06:31:52.671Z"}
+{"level":"info","message":"log successful response from Mobile Content >>> \"Ok\"","timestamp":"2018-10-26T06:31:53.046Z"}
+{"sender":"233541625796","text":"by era her","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-26T06:33:32.655Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233541625796&Text=Hi 233541625796, Your SMS is Successfully Sent. Kindly wait for response accordingly. Thank you \",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-26T06:33:32.655Z"}
+{"level":"info","message":"log successful response from Mobile Content >>> \"Ok\"","timestamp":"2018-10-26T06:33:32.999Z"}
+{"sender":"233245799322","text":"t","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-26T06:58:25.386Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233245799322&Text=Hi 233245799322, Your SMS is Successfully Sent. Kindly wait for response accordingly. Thank you \",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-26T06:58:25.386Z"}
+{"level":"info","message":"log successful response from Mobile Content >>> \"Ok\"","timestamp":"2018-10-26T06:58:25.760Z"}

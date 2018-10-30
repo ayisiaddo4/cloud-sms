@@ -1,0 +1,14 @@
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:08:39.651Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:08:41.449Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:18:47.377Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:18:48.953Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:28:54.989Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:28:56.848Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:39:05.773Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:39:07.430Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:49:14.107Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:49:15.873Z"}
+{"level":"info","message":"receive money request options >>> {\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/receive/mobilemoney\",\"json\":true,\"body\":{\"CustomerName\":\"Ayisi Addo\",\"CustomerMsisdn\":\"233244588584\",\"CustomerEmail\":\"aysiaddo@gmail.com\",\"Channel\":\"mtn-gh\",\"Amount\":0.1,\"PrimaryCallbackUrl\":\"http://196.61.32.218/api/callback\",\"Description\":\"MTN receive money from py after mtn changes\",\"ClientReference\":\"CLDAFK30000130820180004\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dm1wZnZ3aWk6Ym56enl2dHc=\"}}","timestamp":"2018-08-13T12:57:59.960Z"}
+{"level":"info","message":"initial receivemoney callback from Service Provider[object Object]","timestamp":"2018-08-13T12:58:02.769Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:59:25.215Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-13T12:59:27.324Z"}

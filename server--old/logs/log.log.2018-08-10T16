@@ -1,0 +1,13 @@
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:00:02.130Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:10:09.546Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:10:11.748Z"}
+{"level":"info","message":"send money request options >>>>{\"url\":\"https://api.hubtel.com/v1/merchantaccount/merchants/HM2105180005/send/mobilemoney\",\"json\":true,\"body\":{\"RecipientName\":\"Hanson Peprah\",\"RecipientMsisdn\":\"233543419100\",\"CustomerEmail\":\"pymira@gmail.com\",\"Channel\":\"mtn-gh\",\"Amount\":30,\"PrimaryCallbackUrl\":\"http://196.61.32.218./api/callback\",\"SecondaryCallbackUrl\":\"https://webhook.site/564e3d45-13a0-48b5-a523-aa5772457e33\",\"Description\":\"Depost money for Dafabet receivemoney test Amoeba\",\"ClientReference\":\"CLDAK300D10082018001\"},\"method\":\"POST\",\"headers\":{\"Authorization\":\"Basic dHJkc2Nzbmk6cHNncW90eXo=\"}}","timestamp":"2018-08-10T16:16:09.378Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":{\"AmountDebited\":30.5,\"TransactionId\":\"7d6d1ad499874c408f3b4aabde1a9e88\",\"ClientReference\":\"CLDAK300D10082018001\",\"Description\":\"MTN Mobile Money payment has been made successfully.\",\"ExternalTransactionId\":\"4028850005\",\"Amount\":30,\"Charges\":0.5,\"Meta\":null}}","timestamp":"2018-08-10T16:16:12.967Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:20:17.660Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:20:19.861Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:30:26.742Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:30:29.217Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:40:38.566Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:40:42.937Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:51:05.204Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-08-10T16:51:06.418Z"}

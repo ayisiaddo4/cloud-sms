@@ -1,0 +1,5 @@
+{"level":"info","message":"info body request >>","timestamp":"2018-10-08T13:06:23.713Z"}
+{"fromAddr":"nabiypy@gmail.com","toAddr":"pymira@gmail.omm.io","subject":"Post mail test","body":"Hello Ghana","level":"info","message":"info","timestamp":"2018-10-08T13:06:23.716Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-08T13:11:46.262Z"}
+{"fromAddr":"sasim@sasghana.com","toAddr":"ayisi@cloud-africa.io","subject":"Post mail test","body":"Hello Ghana","level":"info","message":"info","timestamp":"2018-10-08T13:11:46.262Z"}
+{"accepted":["ayisi@cloud-africa.io"],"rejected":[],"envelopeTime":1728,"messageTime":2473,"messageSize":278,"response":"250 2.0.0 OK 1539004311 i15-v6sm10489566wro.58 - gsmtp","envelope":{"from":"sasim@sasghana.com","to":["ayisi@cloud-africa.io"]},"messageId":"<e39cc7e3-0311-1a6f-d7ff-5510eebf2577@sasghana.com>","level":"info","message":"error: false successful response","timestamp":"2018-10-08T13:11:53.008Z"}

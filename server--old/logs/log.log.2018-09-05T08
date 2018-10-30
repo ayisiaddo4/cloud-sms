@@ -1,0 +1,4 @@
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-05T08:07:58.487Z"}
+{"level":"error","message":"error tracking transaction status","timestamp":"2018-09-05T08:08:13.929Z"}
+{"level":"error","message":"error tracking transaction status","timestamp":"2018-09-05T08:18:33.113Z"}
+{"level":"info","message":"initial callback from Service Provider{\"response\":\"0000\",\"body\":[]}","timestamp":"2018-09-05T08:18:34.834Z"}

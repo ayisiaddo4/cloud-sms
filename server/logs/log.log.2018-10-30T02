@@ -1,0 +1,3 @@
+{"sender":"233248014387","text":"ATJM","receiver":"1400","level":"info","message":"Incoming request from clients device ","timestamp":"2018-10-30T02:40:12.437Z"}
+{"level":"info","message":"mobile content request options >>> {\"url\":\"http://54.163.215.114:1817/Receiver?User=CldAfr1&Pass=C1D2A3f4&From=1400&To=233248014387&Text=Hi 233248014387, Your SMS is Successfully Sent. Kindly wait for response accordingly. Thank you \",\"json\":true,\"method\":\"GET\"}","timestamp":"2018-10-30T02:40:12.452Z"}
+{"level":"info","message":"log successful response from Mobile Content >>> \"Ok\"","timestamp":"2018-10-30T02:40:12.811Z"}

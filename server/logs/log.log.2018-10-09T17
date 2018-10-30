@@ -1,0 +1,15 @@
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T17:16:46.802Z"}
+{"fromAddr":"SASIM <sasim@sasghana.com>","toAddr":"ayisi@cloud-africa.io","subject":"Cloud Africa Mail Server","body":"Hello,<br>Sending this email using Node and Mandrill","level":"info","message":"info","timestamp":"2018-10-09T17:16:46.804Z"}
+{"from":"SASIM <sasim@sasghana.com>","to":"ayisi@cloud-africa.io","subject":"Cloud Africa Mail Server","text":"Hello,<br>Sending this email using Node and Mandrill","level":"info","message":"info: ","timestamp":"2018-10-09T17:16:46.804Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T17:40:41.607Z"}
+{"fromAddr":"SASIM <sasim@sasghana.com>","toAddr":"ayisi@cloud-africa.io","subject":"Cloud Africa Mail Server","body":"Hello,<br>Sending this email using Node and Mandrill","level":"info","message":"info","timestamp":"2018-10-09T17:40:41.615Z"}
+{"from":"SASIM <sasim@sasghana.com>","to":"ayisi@cloud-africa.io","subject":"Cloud Africa Mail Server","text":"Hello,<br>Sending this email using Node and Mandrill","level":"info","message":"info: ","timestamp":"2018-10-09T17:40:41.616Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T17:48:47.542Z"}
+{"fromAddr":"SASIM <sasim@sasghana.com>","toAddr":"ayisi@cloud-africa.io","subject":"Cloud Africa Mail Server","body":"Hello,<br>Sending this email using Node and Mandrill","level":"info","message":"info","timestamp":"2018-10-09T17:48:47.544Z"}
+{"from":"SASIM <sasim@sasghana.com>","to":"ayisi@cloud-africa.io","subject":"Cloud Africa Mail Server","text":"Hello,<br>Sending this email using Node and Mandrill","level":"info","message":"info: ","timestamp":"2018-10-09T17:48:47.557Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T17:53:21.094Z"}
+{"fromAddr":"SASIM <sasim@sasghana.com>","toAddr":"ayisi@cloud-africa.io","subject":"Cloud Africa Mail Server","body":"Hello,<br>Sending this email using Node and Mandrill","level":"info","message":"info","timestamp":"2018-10-09T17:53:21.097Z"}
+{"from":"SASIM <sasim@sasghana.com>","to":"ayisi@cloud-africa.io","subject":"Cloud Africa Mail Server","html":"Hello,<br>Sending this email using Node and Mandrill","level":"info","message":"info: ","timestamp":"2018-10-09T17:53:21.097Z"}
+{"level":"info","message":"info body request >>","timestamp":"2018-10-09T17:58:27.771Z"}
+{"fromAddr":"Ayisi Addo <ayisiaddo4@gmail.com>","toAddr":"hanson@cloud-africa.io","subject":"Cloud Africa Mail Server","body":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info","timestamp":"2018-10-09T17:58:27.771Z"}
+{"from":"Ayisi Addo <ayisiaddo4@gmail.com>","to":"hanson@cloud-africa.io","subject":"Cloud Africa Mail Server","html":"<h1>Test Mandrill Nodemailer</h1><br> Hurray","level":"info","message":"info: ","timestamp":"2018-10-09T17:58:27.772Z"}
