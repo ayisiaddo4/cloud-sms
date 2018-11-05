@@ -1,7 +1,0 @@
-{"level":"info","message":"30secs final callback from telco :::: {}","timestamp":"2018-09-24T14:30:26.392Z"}
-{"level":"info","message":"30secs final callback from telco :::: {\"ussd_code\":\"*244*2\",\"phone_number\":\"233247954362\",\"session_Id\":\"fp436594537582125154\",\"type\":\"Initiation\"}","timestamp":"2018-09-24T14:33:16.657Z"}
-{"level":"info","message":"30secs final callback from telco :::: {\"ussd_code\":\"*244*2\",\"phone_number\":\"233247954362\",\"session_Id\":\"fp436594537582125154\",\"type\":\"Initiation\"}","timestamp":"2018-09-24T14:36:20.444Z"}
-{"level":"info","message":"30secs final callback from telco :::: {}","timestamp":"2018-09-24T14:37:20.126Z"}
-{"level":"info","message":"30secs final callback from telco :::: {}","timestamp":"2018-09-24T14:53:59.053Z"}
-{"level":"info","message":"30secs final callback from telco :::: {\"ussd_code\":\"*244*2\",\"phone_number\":\"233247954362\",\"session_Id\":\"fp436594537582125154\",\"type\":\"Initiation\"}","timestamp":"2018-09-24T14:54:19.855Z"}
-{"level":"info","message":"30secs final callback from telco :::: {\"ussd_code\":\"*244*2\",\"phone_number\":\"233247954362\",\"session_Id\":\"fp436594537582125154\",\"type\":\"Initiation\"}","timestamp":"2018-09-24T14:57:19.428Z"}
